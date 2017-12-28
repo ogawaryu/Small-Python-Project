@@ -1,6 +1,7 @@
 ## Small Python Project
 
 This is a simple project with python and flask, with implementation of tests using nose test, covering unit test.
+I am also using docker to package the application inside a container, and make it portable to any other host.
 The application is simple, it is an api that calculates the volume of cube and cylinders, passing the necessary parameters.
 
 ### Why flask?
@@ -28,6 +29,13 @@ And run:
 ```
 # python run.py
 ```
+
+To build a Docker image and execute the application inside the container, just run the command:
+
+```
+# docker build -t flask-app .
+```
+
 
 ### View application
 
