@@ -30,12 +30,17 @@ And run:
 # python run.py
 ```
 
+### Installation with Docker
 To build a Docker image and execute the application inside the container, just run the command:
 
 ```
 # docker build -t flask-app .
 ```
 
+And to run the application in container, run the command:
+```
+# docker run -p 5000:5000 -d flask-app
+```
 
 ### View application
 
